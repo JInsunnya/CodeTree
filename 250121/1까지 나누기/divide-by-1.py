@@ -1,16 +1,9 @@
-# Time Complexity: O(n)
+n = int(input())
+cnt = 0
 
-division = int(input())
-
-i = 1
-
-while True: 
-    division //= i
-    # print("division", division)
-    # print("i", i)
-    
-    if division <= 1:
-        print(i)
+for i in range(1, 101, 1):
+    if n <= 1:
+        print(cnt)
         break
-    
-    i += 1
+    n //= i
+    cnt += 1
