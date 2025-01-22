@@ -1,5 +1,5 @@
 while True:
-    n = int(input())
-    if n == 0:
+    i = int(input())
+    if i == 0:
         break
-    print(n)
+    print(i)
