@@ -6,5 +6,4 @@ while True:
     a = s1 * s2
     print(a)
     if s3 == 'C':
-        a = s1 * s2
         break
