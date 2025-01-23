@@ -1,8 +1,10 @@
-n = int(input())
-cnt = 0
+N = int(input())
+prod = 1
+x = 0
 
-while n!=1:
-    n //= 2
-    cnt += 1
-    
-print(cnt)
+while True:
+    if N == prod:
+        break
+    prod *= 2
+    x +=1
+print(x)
