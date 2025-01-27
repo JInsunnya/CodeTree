@@ -5,7 +5,7 @@ for _ in range(5):
     if a % 3 != 0:  
         satisfied = False
 
-if satisfied:
+if satisfied == True:
     print(1)
 else:
     print(0)
